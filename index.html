@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Le Ciel de Chaix — Station Météo Davis</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: #0f172a;
+    }
+    iframe {
+      position: fixed;
+      left: 0;
+      top: -42px;
+      width: 100%;
+      height: calc(100% + 42px);
+      border: none;
+    }
+    @media (max-width: 680px) {
+      iframe {
+        top: -68px;
+        height: calc(100% + 68px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <iframe
+    src="https://script.google.com/macros/s/AKfycbzfTtoK7EwtDu_sX6tD_ce1PkUP8gDdtKRO6a5Iyz0TWAFDnyr76XNAqocPxWBKB53GFg/exec"
+    allow="fullscreen">
+  </iframe>
+</body>
+</html>
